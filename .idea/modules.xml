@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Assignment/Assignment.iml" filepath="$PROJECT_DIR$/Assignment/Assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bookapp/Bookapp.iml" filepath="$PROJECT_DIR$/Bookapp/Bookapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Execeptiondemos/Execeptiondemos.iml" filepath="$PROJECT_DIR$/Execeptiondemos/Execeptiondemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interfacedemos/Interfacedemos.iml" filepath="$PROJECT_DIR$/Interfacedemos/Interfacedemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javaapidemos/Javaapidemos.iml" filepath="$PROJECT_DIR$/Javaapidemos/Javaapidemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javademos.iml" filepath="$PROJECT_DIR$/Javademos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multithreadinngdemos/Multithreadinngdemos.iml" filepath="$PROJECT_DIR$/Multithreadinngdemos/Multithreadinngdemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Oopsdemos/Oopsdemos.iml" filepath="$PROJECT_DIR$/Oopsdemos/Oopsdemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Userapp/Userapp.iml" filepath="$PROJECT_DIR$/Userapp/Userapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UtilDemos/UtilDemos.iml" filepath="$PROJECT_DIR$/UtilDemos/UtilDemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VoterApp/VoterApp.iml" filepath="$PROJECT_DIR$/VoterApp/VoterApp.iml" />
+    </modules>
+  </component>
+</project>
