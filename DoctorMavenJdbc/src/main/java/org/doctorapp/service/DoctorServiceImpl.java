@@ -20,6 +20,7 @@ public class DoctorServiceImpl implements IDoctorService {
 
     @Override
     public void updateDoctor(int DoctorId, double doctor) {
+
         doctorRepository.updateDoctor(DoctorId,doctor);
     }
 
@@ -62,7 +63,7 @@ public class DoctorServiceImpl implements IDoctorService {
         List<Doctor> doctors=doctorRepository.findBySpecialityAndExp(speciality, experience);
         if(doctors.isEmpty())
             throw new DoctorNotFoundException("doctor by this specility and exprience is not found");
-        Collections.sort(doctors,(d1,d2)->((int)(d1.getExperince())).compareTo(d2.getExperince()));
+        Collections.sort(doctors,(d1,d2)->((int)(d1.getExperince())).comp(d2.getExperince()));
         return doctors;
     }
 
