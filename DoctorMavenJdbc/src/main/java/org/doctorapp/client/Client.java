@@ -14,9 +14,9 @@ public class Client {
 
 //        String speciality=Specialization .gyna.getSpeciality();
 
-//        Doctor doctor=new Doctor("sukanth",speciality,5000,9,5);
-//        doctorService.addDoctor(doctor);
+        Doctor doctor=new Doctor("sukanth",speciality,5000,9,5);
+        doctorService.addDoctor(doctor);
 
-        doctorService.updateDoctor(1,5000);
+//        doctorService.updateDoctor(2,15000);
     }
 }
