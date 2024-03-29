@@ -2,7 +2,7 @@ package org.doctorapp.util;
 
 public class Queries {
     public static final String INSERTQUERY=
-            "insert into doctor(doctor_name,speciality,experience,rating,fees) values(?,?,?,?,?);";
+            "insert into doctor(doctor_name,speciality,experience,fees,rating) values(?,?,?,?,?);";
 
     public static final String UPDATEQUERY=
             "update doctor set fees=? where doctor_id=?;";
@@ -26,9 +26,9 @@ public class Queries {
             "select * from doctor where speciality=? and fees<=?;";
 
     public static final String FINDBYSPECANDNAME=
-            "select * from doctor where speciality=? and doctor_name like ?;";
+            "select * from doctors where speciality=? and doctor_name like ?;";
 
     public static final String FINDBYID=
-            "select * from doctor where doctor_id=?;";
+            "select * from doctors where doctor_id=?;";
 
 }

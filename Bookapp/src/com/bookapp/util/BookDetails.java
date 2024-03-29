@@ -1,4 +1,4 @@
-package util;
+package com.bookapp.util;
 
 import com.bookapp.model.Book;
 

@@ -3,12 +3,14 @@ package com.bookapp.service;
 import com.bookapp.exception.BookNotFoundException;
 import com.bookapp.exception.IdNotFoundException;
 import com.bookapp.model.Book;
+import com.bookapp.repository.IBookRepository;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class BookServiceImpl implements IBookService {
 
+    private IBookRepository iBookRepository=new BookRepositoryImpl();
     @Override
     public List<Book> getAll() {
         List<Book> books= BookDetails.showBooks();

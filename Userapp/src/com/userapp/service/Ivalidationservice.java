@@ -1,7 +1,12 @@
 package com.userapp.service;
 
+import com.userapp.exception.NameExistsException;
+import com.userapp.exception.TooLongException;
+import com.userapp.exception.TooShortException;
+
 public interface Ivalidationservice {
-    boolean validatepassward(String passward)throws TooShortExeception,TooLongException;
+    boolean validatePassword(String password)throws TooShortException, TooLongException;
+    boolean validateUsername(String username)throws NameExistsException;
 
 
 }

@@ -70,7 +70,7 @@ public class DoctorRepositoryImpl implements IDoctorRepository {
                 String doctorName = resultSet.getString("doctor_name");
                 String speciality = resultSet.getString("speciality");
                 int experience = resultSet.getInt("experience");
-                int ratings = resultSet.getInt("ratings");
+                int ratings = resultSet.getInt("rating");
                 int doctorId = resultSet.getInt("doctor_id");
                 double fees = resultSet.getDouble("fees");
                 Doctor doctor = new Doctor(doctorId,doctorName,  speciality, fees, ratings, experience);
@@ -98,7 +98,7 @@ public class DoctorRepositoryImpl implements IDoctorRepository {
                 while (resultSet.next()) {
                     String doctorName = resultSet.getString("doctor_name");
                     int experience = resultSet.getInt("experience");
-                    int ratings = resultSet.getInt("ratings");
+                    int ratings = resultSet.getInt("rating");
                     int doctorId = resultSet.getInt("doctor_id");
                     double fees = resultSet.getDouble("fees");
                     Doctor doctor = new Doctor();
@@ -132,7 +132,7 @@ public class DoctorRepositoryImpl implements IDoctorRepository {
                     doctor.setDoctorName(resultSet.getString("doctor_name"));
                     doctor.setSpeciality(resultSet.getString("speciality"));
                     doctor.setExperince(resultSet.getInt("experience"));
-                    doctor.setRating(resultSet.getInt("ratings"));
+                    doctor.setRating(resultSet.getInt("rating"));
                     doctor.setFees(resultSet.getDouble("fees"));
                     doctor.setDoctorId(resultSet.getInt("doctor_id"));
                     doctors.add(doctor);
@@ -157,7 +157,7 @@ public class DoctorRepositoryImpl implements IDoctorRepository {
                     doctor.setDoctorName(resultSet.getString("doctor_name"));
                     doctor.setSpeciality(resultSet.getString("speciality"));
                     doctor.setExperince(resultSet.getInt("experience"));
-                    doctor.setRating(resultSet.getInt("ratings"));
+                    doctor.setRating(resultSet.getInt("rating"));
                     doctor.setFees(resultSet.getDouble("fees"));
                     doctor.setDoctorId(resultSet.getInt("doctor_id"));
                     doctors.add(doctor);
@@ -182,7 +182,7 @@ public class DoctorRepositoryImpl implements IDoctorRepository {
                     doctor.setDoctorName(resultSet.getString("doctor_name"));
                     doctor.setSpeciality(resultSet.getString("speciality"));
                     doctor.setExperince(resultSet.getInt("experience"));
-                    doctor.setRating(resultSet.getInt("ratings"));
+                    doctor.setRating(resultSet.getInt("rating"));
                     doctor.setFees(resultSet.getDouble("fees"));
                     doctor.setDoctorId(resultSet.getInt("doctor_id"));
                     doctors.add(doctor);
@@ -207,7 +207,7 @@ public class DoctorRepositoryImpl implements IDoctorRepository {
                     doctor.setDoctorName(resultSet.getString("doctor_name"));
                     doctor.setSpeciality(resultSet.getString("speciality"));
                     doctor.setExperince(resultSet.getInt("experience"));
-                    doctor.setRating(resultSet.getInt("ratings"));
+                    doctor.setRating(resultSet.getInt("rating"));
                     doctor.setFees(resultSet.getDouble("fees"));
                     doctor.setDoctorId(resultSet.getInt("doctor_id"));
                     doctors.add(doctor);

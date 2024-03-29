@@ -1,4 +1,4 @@
-package service;
+package com.bookapp.service;
 
 import com.bookapp.exception.BookNotFoundException;
 import com.bookapp.exception.IdNotFoundException;

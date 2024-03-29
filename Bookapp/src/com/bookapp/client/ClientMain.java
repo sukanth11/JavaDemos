@@ -2,8 +2,8 @@ package com.bookapp.client;
 
 import com.bookapp.exception.BookNotFoundException;
 import com.bookapp.model.Book;
-import service.IBookService;
-import service.BookServiceImpl;
+import com.bookapp.service.IBookService;
+import com.bookapp.service.BookServiceImpl;
 
 import java.util.List;
 import java.util.Scanner;
