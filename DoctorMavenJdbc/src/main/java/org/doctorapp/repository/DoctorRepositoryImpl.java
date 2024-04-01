@@ -172,6 +172,7 @@ public class DoctorRepositoryImpl implements IDoctorRepository {
     @Override
     public List<Doctor> findBySpecialityAndLessFee(String speciality, double fees) {
         List<Doctor> doctors = new ArrayList<>();
+
         try (Connection connection = DoctorDataBase.openConnection();
              PreparedStatement statement = connection.prepareStatement(Queries.FINDBYSPECANDFEES);) {
             statement.setString(1, speciality);
